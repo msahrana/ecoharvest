@@ -12,7 +12,7 @@ import Image4 from "../../../public/product4.jpeg";
 const ServicesOffer = () => {
   return (
     <div className="mx-auto text-center my-10">
-      <h3 className="text-xl text-[#50AD53] font-bold mb-6">
+      <h3 className="text-xl text-[#50AD53] font-bold mb-6 italic">
         What we`re Doing
       </h3>
       <h1 className="text-3xl md:text-5xl font-bold mb-10">
