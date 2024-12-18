@@ -11,24 +11,24 @@ const Navbar = () => {
         </Link>
       </div>
       <div className="mr-20">
-        <ul className="flex gap-5">
+        <ul className="hidden md:flex gap-5">
           <li>
             <Link href={"/"}>Home</Link>
           </li>
           <li>
-            <Link href={"/"}>Home</Link>
+            <Link href={"/services"}>Services</Link>
           </li>
           <li>
-            <Link href={"/"}>Home</Link>
+            <Link href={"/projects"}>Projects</Link>
           </li>
           <li>
-            <Link href={"/"}>Home</Link>
+            <Link href={"/shop"}>Shop</Link>
           </li>
           <li>
-            <Link href={"/"}>Home</Link>
+            <Link href={"/aboutUs"}>AboutUs</Link>
           </li>
           <li>
-            <Link href={"/"}>Home</Link>
+            <Link href={"/contact"}>Contact</Link>
           </li>
         </ul>
       </div>
@@ -58,7 +58,7 @@ const Navbar = () => {
               <Link href={"/dashboard"}>Dashboard</Link>
             </li>
             <li>
-              <a>Settings</a>
+              <Link href={"/addBlog"}>AddBlog</Link>
             </li>
             <div className="mx-auto items-center w-full">
               <button className="text-center bg-gray-300 w-full py-1 text-red-500">
