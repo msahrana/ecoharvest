@@ -1,3 +1,4 @@
+import AgricultureMatters from "@/components/HomePage/AgricultureMatters";
 import Badge from "@/components/HomePage/Badge";
 import Banner from "@/components/HomePage/Banner";
 import QualityProducts from "@/components/HomePage/QualityProducts";
@@ -14,6 +15,7 @@ export default function Home() {
       <Videos/>
       <QualityProducts/>
       <Badge/>
+      <AgricultureMatters/>
     </div>
   );
 }

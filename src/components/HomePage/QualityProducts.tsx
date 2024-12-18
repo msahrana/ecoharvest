@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const QualityProducts = () => {
   return (
-    <div className="flex flex-col md:flex-row gap-5 bg-[#faf9f4] md:p-20 flex-1 md:m-40 border rounded mx-auto items-center justify-center -translate-y-52">
+    <div className="flex flex-col md:flex-row gap-5 bg-[#faf9f4] md:p-20 flex-1 md:m-40 border rounded mx-auto items-center justify-center md:-translate-y-48">
       <div className="md:w-1/3 p-6">
         <h3 className="text-xl text-[#50AD53] font-bold mb-6 italic">
           Agriculture Furm
@@ -39,14 +39,14 @@ const QualityProducts = () => {
         width={600}
         height={500}
         alt="Image1"
-        className="w-full md:w-80 h-[500px] rounded-sm"
+        className="w-full md:w-80 h-[500px] rounded-sm p-4"
       />
       <Image
         src={Image2}
         width={600}
         height={500}
         alt="Image1"
-        className="w-full md:w-80 h-[500px] rounded-sm"
+        className="w-full md:w-80 h-[500px] rounded-sm p-4"
       />
     </div>
   );
