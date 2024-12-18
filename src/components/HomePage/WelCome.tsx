@@ -8,7 +8,13 @@ const WelCome = () => {
   return (
     <div className="hero bg-base-200 min-h-screen">
       <div className="hero-content flex-col lg:flex-row">
-        <Image src={WelComeLogo} width={600} height={400} alt="Logo1" className="w-full h-64 md:h-full"/>
+        <Image
+          src={WelComeLogo}
+          width={600}
+          height={400}
+          alt="Logo1"
+          className="w-full h-64 md:h-full"
+        />
         <div>
           <h3 className="text-xl text-[#50AD53] font-bold mb-6 italic">
             Welcome to Eco Harvest
