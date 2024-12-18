@@ -7,7 +7,7 @@ import Image from "next/image";
 const QualityProducts = () => {
   return (
     <div className="flex flex-col md:flex-row gap-5 bg-[#faf9f4] md:p-20 flex-1 md:m-40 border rounded mx-auto items-center justify-center -translate-y-52">
-      <div className="md:w-1/3 p-4">
+      <div className="md:w-1/3 p-6">
         <h3 className="text-xl text-[#50AD53] font-bold mb-6 italic">
           Agriculture Furm
         </h3>

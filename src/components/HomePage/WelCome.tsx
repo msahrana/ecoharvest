@@ -15,7 +15,7 @@ const WelCome = () => {
           alt="Logo1"
           className="w-full h-64 md:h-full"
         />
-        <div>
+        <div className="p-2">
           <h3 className="text-xl text-[#50AD53] font-bold mb-6 italic">
             Welcome to Eco Harvest
           </h3>

@@ -1,3 +1,4 @@
+import Badge from "@/components/HomePage/Badge";
 import Banner from "@/components/HomePage/Banner";
 import QualityProducts from "@/components/HomePage/QualityProducts";
 import ServicesOffer from "@/components/HomePage/ServicesOffer";
@@ -12,6 +13,7 @@ export default function Home() {
       <ServicesOffer/>
       <Videos/>
       <QualityProducts/>
+      <Badge/>
     </div>
   );
 }
