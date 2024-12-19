@@ -2,6 +2,7 @@ import AgricultureMatters from "@/components/HomePage/AgricultureMatters";
 import Badge from "@/components/HomePage/Badge";
 import Banner from "@/components/HomePage/Banner";
 import Farmers from "@/components/HomePage/Farmers";
+import OrganicProducts from "@/components/HomePage/OrganicProducts";
 import OurProjects from "@/components/HomePage/OurProjects";
 import QualityProducts from "@/components/HomePage/QualityProducts";
 import ServicesOffer from "@/components/HomePage/ServicesOffer";
@@ -22,6 +23,7 @@ export default function Home() {
       <OurProjects/>
       <Farmers/>
       <WhySection/>
+      <OrganicProducts/>
     </div>
   );
 }
