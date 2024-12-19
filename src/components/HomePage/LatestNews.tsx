@@ -7,7 +7,7 @@ import React from "react";
 
 const LatestNews = () => {
   return (
-    <div className="container text-center my-20">
+    <div className="container mx-auto text-center my-20">
       <h3 className="text-xl text-[#50AD53] font-bold mb-6 italic">
         What we`re doing
       </h3>
