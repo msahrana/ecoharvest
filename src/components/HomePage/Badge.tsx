@@ -6,7 +6,7 @@ import React from "react";
 
 const Badge = () => {
   return (
-    <div className="-translate-y-40 container mx-auto flex flex-col md:flex-row gap-10 items-center justify-center">
+    <div className="md:-translate-y-40 container mx-auto flex flex-col md:flex-row gap-10 items-center justify-center mt-10">
       <div className="flex flex-col items-center justify-center space-y-4">
         <MdOutlineAgriculture className="size-24 bg-slate-200 p-3 rounded-full text-[#50AD53]" />
         <h2 className="text-5xl font-bold text-[#50AD53]">2375</h2>
