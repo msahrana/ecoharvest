@@ -7,6 +7,7 @@ import QualityProducts from "@/components/HomePage/QualityProducts";
 import ServicesOffer from "@/components/HomePage/ServicesOffer";
 import Videos from "@/components/HomePage/Videos";
 import WelCome from "@/components/HomePage/WelCome";
+import WhySection from "@/components/HomePage/WhySection";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <AgricultureMatters/>
       <OurProjects/>
       <Farmers/>
+      <WhySection/>
     </div>
   );
 }
