@@ -7,6 +7,7 @@ import OrganicProducts from "@/components/HomePage/OrganicProducts";
 import OurProjects from "@/components/HomePage/OurProjects";
 import QualityProducts from "@/components/HomePage/QualityProducts";
 import ServicesOffer from "@/components/HomePage/ServicesOffer";
+import Supporters from "@/components/HomePage/Supporters";
 import Videos from "@/components/HomePage/Videos";
 import WelCome from "@/components/HomePage/WelCome";
 import WhySection from "@/components/HomePage/WhySection";
@@ -26,6 +27,7 @@ export default function Home() {
       <WhySection/>
       <OrganicProducts/>
       <LatestNews/>
+      <Supporters/>
     </div>
   );
 }

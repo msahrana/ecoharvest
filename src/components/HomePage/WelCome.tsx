@@ -22,7 +22,7 @@ const WelCome = () => {
           <h1 className="text-3xl md:text-5xl font-bold">
             Need For Agriculture!
           </h1>
-          <p className="py-6">
+          <p className="py-6 text-justify">
             At Eco Harvest, we are dedicated to cultivating a greener, more
             sustainable future. Our platform is your gateway to discovering
             innovative agricultural practices, eco-friendly farming solutions,
@@ -34,11 +34,10 @@ const WelCome = () => {
               width={400}
               height={200}
               alt="Logo2"
-              className="rounded-l-md h-28 md:h-48 w-48 md:w-96"
+              className="rounded-l-md h-36 md:h-48 w-48 md:w-96"
             />
             <div className="flex flex-col justify-center space-y-3 text-center">
               <p className="flex gap-2 items-center text-sm md:text-lg">
-                {" "}
                 <FaCheckCircle className="text-[#50AD53]" />
                 Best Quality Standards
               </p>
